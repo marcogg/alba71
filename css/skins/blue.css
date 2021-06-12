@@ -126,6 +126,7 @@ body.dark .preloader .loader {
 }
 .btn-wrapper a {
 	border: 5px solid #4169e1;
+	background-color: white;
 }
 .rtl-version .about-right-side .full-image-container.hovered:before {
 	border-right: 5px solid #4169e1;

@@ -3370,7 +3370,12 @@ body.blog-page article .comments-form .custom-button:before {
 .contactform .form-container {
     max-width: 750px;
     margin: 0 auto;
-    padding: 60px 0 30px;
+    padding: 60px 20px 30px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    max-width: 400px;
 }
 
 .custom-form-group {
@@ -4234,4 +4239,47 @@ body.dark.blog-page .banner-blog-post .meta {
         margin-top: 15px;
         padding: 0 15px;
     }
+}
+
+.videotour{
+    filter: opacity(100%);
+    background-image: url('../img/webp/sala-departamento.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white !important;
+}
+
+.parche{
+    width: 100%;
+    height: 50px;
+    display: block;
+    position: relative;
+    top: -70px;
+    background-color: white;
+}
+
+.btn-cta{
+    background-color: #007bff;
+    padding: 1% 2%;
+    color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    display: block;
+    max-width: 300px;
+    text-align: center;
+}
+
+.btn-cta:hover{
+    transition: all 0.3s;
+    transform: scale(1.15);
+    background-color: #00299D;
+    color: white;
+    font-weight: bold;
+}
+
+input[type=submit], .hs-button.primary.large{
+    background-color:#007bff !important;
 }
